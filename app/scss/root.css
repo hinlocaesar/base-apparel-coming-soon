@@ -90,6 +90,7 @@ table {
 }
 
 .content__desc {
+  padding-top: 2.5rem;
   color: #ce9797;
   line-height: 1.25rem;
 }
@@ -104,10 +105,52 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: royalblue;
   margin-bottom: 100px;
   height: 3rem;
   text-align: left;
   border-radius: 1.8rem;
+  border: solid 1px #ce9797;
+  /*
+        &__button{
+            background-color:$DesaturatedRed;
+            color:white;
+            border: none;
+            font-size: 2.5rem;
+            border-radius: 30px;
+            padding-left: 1.4rem;
+        }
+        */
+}
+
+.content__form__input {
+  border: none;
+  margin-left: 1.4rem;
+}
+
+.content__form__input::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+.content__form__input:-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.content__form__input::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.content__form__input::placeholder {
+  color: #ce9797;
+}
+
+.content__form__button {
+  border: none;
+  margin-right: 1.5rem;
+  background-color: #ce9797;
+  font-size: 2.5rem;
+  color: white;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 /*# sourceMappingURL=root.css.map */
