@@ -93,6 +93,7 @@ table {
   padding-top: 2.5rem;
   color: #ce9797;
   line-height: 1.25rem;
+  margin-bottom: 2.6rem;
 }
 
 .content__form {
@@ -107,19 +108,8 @@ table {
           justify-content: space-between;
   margin-bottom: 100px;
   height: 3rem;
-  text-align: left;
   border-radius: 1.8rem;
   border: solid 1px #ce9797;
-  /*
-        &__button{
-            background-color:$DesaturatedRed;
-            color:white;
-            border: none;
-            font-size: 2.5rem;
-            border-radius: 30px;
-            padding-left: 1.4rem;
-        }
-        */
 }
 
 .content__form__input {
@@ -129,23 +119,28 @@ table {
 
 .content__form__input::-webkit-input-placeholder {
   color: #ce9797;
+  font-size: 0.9rem;
 }
 
 .content__form__input:-ms-input-placeholder {
   color: #ce9797;
+  font-size: 0.9rem;
 }
 
 .content__form__input::-ms-input-placeholder {
   color: #ce9797;
+  font-size: 0.9rem;
 }
 
 .content__form__input::placeholder {
   color: #ce9797;
+  font-size: 0.9rem;
 }
 
 .content__form__button {
+  text-align: right;
   border: none;
-  margin-right: 1.5rem;
+  margin-right: 0rem;
   background-color: #ce9797;
   font-size: 2.5rem;
   color: white;
