@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.padding_left_right {
+  padding-left: 2.18rem;
+  padding-right: 2.18rem;
+}
+
+/*
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+*/
+.logo {
+  height: 1.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4.18rem;
+}
+
+.content {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content__title1 {
+  font-size: 2.25rem;
+  color: #ce9797;
+  letter-spacing: 1rem;
+}
+
+.content__title2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: 1.05rem;
+}
+
+.content__desc {
+  color: #ce9797;
+  line-height: 1.25rem;
+}
+
+.content__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: royalblue;
+  margin-bottom: 100px;
+  height: 3rem;
+  text-align: left;
+  border-radius: 1.8rem;
+}
+/*# sourceMappingURL=root.css.map */
