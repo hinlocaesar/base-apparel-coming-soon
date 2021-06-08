@@ -75,6 +75,7 @@ table {
 .content {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+  /*Form End*/
 }
 
 .content__title1 {
@@ -106,7 +107,7 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 0.7rem;
   height: 3rem;
   border-radius: 1.8rem;
   border: solid 1px #ce9797;
@@ -147,6 +148,12 @@ table {
   border-radius: 30px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+}
+
+.content__alert {
+  color: red;
+  margin-left: 1.4rem;
+  text-align: left;
 }
 
 @media only screen and (min-width: 600px) {
