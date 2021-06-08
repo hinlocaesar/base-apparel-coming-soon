@@ -1,9 +1,10 @@
+//Function to change hero image depending on view source
 function myFunction(x) {
 
     if (x.matches) { // If media query matches
-      document.getElementsByClassName('.myImg') = "/images/hero-mobile.jpg";
+      document.querySelector('.myImg') = "/images/hero-mobile.jpg";
     } else {
-       document.getElementById("myImg").src = "/images/hero-desktop.jpg";
+       document.querySelector(".myImg").src = "/images/hero-desktop.jpg";
     }
   }
   
@@ -13,23 +14,17 @@ function myFunction(x) {
 
 
 
-
-
-
-
-
-/*#########################*/
-
+//Function To check validation of email address
   function getInputValue(){
     // Selecting the input element and get its value 
     var inputVal = document.getElementById("myInput").value;
-    if(inputVal=="" ){
-      alert("Name must be filled out");
-    }
-    else if(!inputVal.includes('@')){
-      //do noting is there is not @
+    if(!inputVal.includes('@')){
+      document.querySelector(".content__alert").innerHTML="Please provide valid email";
+      
+
     }else{
-    alert(inputVal);
+      document.querySelector(".content__alert").innerHTML="Succesfully Registered";
+      document.querySelector(".content__alert").style.color = "green";
     }
     
 
