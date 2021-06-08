@@ -150,6 +150,18 @@ table {
   padding-left: 1.5rem;
 }
 
+.content__form__icon {
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background: red;
+  font-size: 0.8rem;
+}
+
 .content__alert {
   color: red;
   margin-left: 1.4rem;

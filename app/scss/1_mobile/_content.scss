@@ -59,6 +59,19 @@
             padding-left: 1.5rem;
         }
 
+        &__icon{
+            border: none;
+            $IconValue:1.5rem;
+            width: $IconValue;
+            height: $IconValue;
+            line-height: $IconValue;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            background: red;
+            font-size: 0.8rem;
+        }
+
     } /*Form End*/
     
     &__alert{
@@ -66,5 +79,8 @@
         margin-left: 1.4rem;
         text-align: left;
     }
+
+
+
 
 }

@@ -1,8 +1,8 @@
 function myFunction(x) {
     if (x.matches) { // If media query matches
-    document.getElementsByClassName('.myImg') = "/images/hero-mobile.jpg";
+      document.getElementsByClassName('.myImg') = "/images/hero-mobile.jpg";
     } else {
-     document.getElementById("myImg").src = "/images/hero-desktop.jpg";
+       document.getElementById("myImg").src = "/images/hero-desktop.jpg";
     }
   }
   
