@@ -159,8 +159,9 @@ table {
         grid-template-rows: 14.8rem 1fr;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    padding-left: 5.9rem;
     grid-gap: 10px;
+    padding-left: 5.9rem;
+    padding-right: 13rem;
   }
   .container .logo {
     -ms-grid-row: 1;
