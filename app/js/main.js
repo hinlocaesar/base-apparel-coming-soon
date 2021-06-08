@@ -1,4 +1,5 @@
 function myFunction(x) {
+
     if (x.matches) { // If media query matches
       document.getElementsByClassName('.myImg') = "/images/hero-mobile.jpg";
     } else {

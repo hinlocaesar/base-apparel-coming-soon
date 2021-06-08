@@ -24,6 +24,8 @@
 
     }
 
+   
+
     &__form{
         display: flex;
         align-items: center;
@@ -42,35 +44,43 @@
         &__input::placeholder{
             color:$DesaturatedRed;
             font-size: 0.9rem;
+   
         }
 
  
+   &__group{
+       display: flex;
 
-        &__button{
-            text-align: right;
-            border: none;
-            margin-right: 0rem;
-            background-color:$DesaturatedRed;
-            font-size: 2.5rem;
-            color:white;
+       justify-content: center;
+      
+            &__button{
+                text-align: right;
+                border: none;
+                margin-right: 0rem;
+                background-color:$DesaturatedRed;
+                font-size: 3rem;
+                color:white;
+                border-radius: 30px;
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+                margin-left: 0.9rem;
+           
+            }
 
-            border-radius: 30px;
-            padding-right: 1.5rem;
-            padding-left: 1.5rem;
-        }
-
-        &__icon{
-            border: none;
-            $IconValue:1.5rem;
-            width: $IconValue;
-            height: $IconValue;
-            line-height: $IconValue;
-            border-radius: 50%;
-            color: #fff;
-            text-align: center;
-            background: red;
-            font-size: 0.8rem;
-        }
+            &__icon{
+                border: none;
+                $IconValue:1.5rem;
+                width: $IconValue;
+                height: $IconValue;
+                line-height: $IconValue;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+                background: red;
+                font-size: 0.8rem;
+                margin:auto;
+            }
+    }/*group end*/
 
     } /*Form End*/
     

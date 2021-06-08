@@ -111,6 +111,7 @@ table {
   height: 3rem;
   border-radius: 1.8rem;
   border: solid 1px #ce9797;
+  /*group end*/
 }
 
 .content__form__input {
@@ -138,19 +139,29 @@ table {
   font-size: 0.9rem;
 }
 
-.content__form__button {
+.content__form__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content__form__group__button {
   text-align: right;
   border: none;
   margin-right: 0rem;
   background-color: #ce9797;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   border-radius: 30px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+  margin-left: 0.9rem;
 }
 
-.content__form__icon {
+.content__form__group__icon {
   border: none;
   width: 1.5rem;
   height: 1.5rem;
@@ -160,6 +171,7 @@ table {
   text-align: center;
   background: red;
   font-size: 0.8rem;
+  margin: auto;
 }
 
 .content__alert {
