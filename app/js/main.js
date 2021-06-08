@@ -17,10 +17,12 @@ function myFunction(x) {
 //Function To check validation of email address
   function getInputValue(){
     // Selecting the input element and get its value 
-    var inputVal = document.getElementById("myInput").value;
+    let inputVal = document.getElementById("myInput").value;
+    let element = document.querySelector(".content__form__group__icon");
     if(!inputVal.includes('@')){
       document.querySelector(".content__alert").innerHTML="Please provide valid email";
-      
+
+      element.style.visibility = "visible";
 
     }else{
       document.querySelector(".content__alert").innerHTML="Succesfully Registered";

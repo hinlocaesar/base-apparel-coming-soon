@@ -175,6 +175,7 @@ table {
   background: red;
   font-size: 0.8rem;
   margin: auto;
+  visibility: hidden;
 }
 
 .content__alert {
