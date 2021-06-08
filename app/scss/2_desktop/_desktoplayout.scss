@@ -4,6 +4,7 @@
 
 
     .container{
+        max-width: 1140px;
         display: grid;
         grid-template-areas: "logo hero"
                              "content hero ";
@@ -11,6 +12,7 @@
         grid-template-columns: 1fr 1fr;
         padding-left: 5.9rem;
         grid-gap:50px;
+    
 
 
         .logo{
