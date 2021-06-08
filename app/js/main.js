@@ -20,13 +20,18 @@ function myFunction(x) {
 
 /*#########################*/
 
-  function validateForm() {
-    var x = document.forms["myForm"]["email"].value;
-    if (x == "") {
+  function getInputValue(){
+    // Selecting the input element and get its value 
+    var inputVal = document.getElementById("myInput").value;
+    if(inputVal=="" ){
       alert("Name must be filled out");
-      return false;
-    }else{
-      alert("x");
     }
-  }
+    else if(!inputVal.includes('@')){
+      //do noting is there is not @
+    }else{
+    alert(inputVal);
+    }
+    
+
+}
   
