@@ -57,6 +57,10 @@ table {
   padding-right: 2.18rem;
 }
 
+input:focus, textarea:focus {
+  outline: 0;
+}
+
 /*
 - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
 - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
