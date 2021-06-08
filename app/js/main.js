@@ -2,7 +2,7 @@
 function myFunction(x) {
 
     if (x.matches) { // If media query matches
-      document.querySelector('.myImg') = "/images/hero-mobile.jpg";
+      document.querySelector('.myImg').src = "/images/hero-mobile.jpg";
     } else {
        document.querySelector(".myImg").src = "/images/hero-desktop.jpg";
     }
