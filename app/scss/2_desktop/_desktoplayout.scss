@@ -1,15 +1,16 @@
 @media only screen and (min-width: 600px) {
+
+
+
+
     .container{
         display: grid;
-        max-width: 1440px;
         grid-template-areas: "logo hero"
                              "content hero ";
         grid-template-rows: 14.8rem 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-gap:10px;
-
         padding-left: 5.9rem;
-        padding-right: 13rem;
+        grid-gap:50px;
 
 
         .logo{
@@ -17,7 +18,7 @@
         }
 
         .hero{
-            grid-area: hero;
+            grid-area: hero; 
         }
 
         .content{

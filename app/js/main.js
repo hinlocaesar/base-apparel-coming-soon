@@ -1,10 +1,9 @@
 function myFunction(x) {
     if (x.matches) { // If media query matches
-      document.body.style.backgroundColor = "yellow";
-    
+      document.getElementById("myImg").src = "/images/hero-mobile.jpg";
     } else {
-     document.body.style.backgroundColor = "pink";
-     document.getElementsByClassName("hero__image").src = "hero-desktop.jpg";
+     document.getElementById("myImg").src = "/images/hero-desktop.jpg";
+ 
     }
   }
   

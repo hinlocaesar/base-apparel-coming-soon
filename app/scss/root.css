@@ -153,15 +153,13 @@ table {
   .container {
     display: -ms-grid;
     display: grid;
-    max-width: 1440px;
         grid-template-areas: "logo hero" "content hero ";
     -ms-grid-rows: 14.8rem 1fr;
         grid-template-rows: 14.8rem 1fr;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
     padding-left: 5.9rem;
-    padding-right: 13rem;
+    grid-gap: 50px;
   }
   .container .logo {
     -ms-grid-row: 1;
@@ -191,6 +189,7 @@ table {
 
 @media only screen and (min-width: 600px) {
   .content {
+    max-width: 52rem;
     text-align: left;
   }
   .content__title1 {
