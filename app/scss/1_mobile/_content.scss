@@ -29,31 +29,29 @@
 
     &__form{
         display: flex;
-
         justify-content: space-between;
         margin-bottom:0.7rem;
         height: 3rem;
         border-radius: 1.9rem;
-        border: solid 1px $DesaturatedRed;
+        border: solid 5px $DesaturatedRed;
 
         &__input{
-           border:none;
-           margin-left: 1.4rem;
-           height:2.9rem;
-           width: 30em;
+            border:none;
+            margin-left: 1.4rem;
+            margin-right: 1.4rem;
+            height:2.9rem;
+            width: 30em;
       
         }
 
         &__input::placeholder{
             color:$DesaturatedRed;
-            font-size: 0.9rem;
-   
+            font-size: 0.9rem;       
         }
 
  
    &__group{
        display: flex;
-
        justify-content: center;
       
             &__button{

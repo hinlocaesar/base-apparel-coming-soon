@@ -115,13 +115,14 @@ input:focus, textarea:focus {
   margin-bottom: 0.7rem;
   height: 3rem;
   border-radius: 1.9rem;
-  border: solid 1px #ce9797;
+  border: solid 5px #ce9797;
   /*group end*/
 }
 
 .content__form__input {
   border: none;
   margin-left: 1.4rem;
+  margin-right: 1.4rem;
   height: 2.9rem;
   width: 30em;
 }
