@@ -1,6 +1,9 @@
 .hero{
     text-align: center;
     margin-bottom: 4.18rem;
-    max-width: 100%;
-    height: auto;
+
+    &__myImg{
+        width: 100%;
+    }
+
  }

@@ -74,8 +74,10 @@ input:focus, textarea:focus {
 .hero {
   text-align: center;
   margin-bottom: 4.18rem;
-  max-width: 100%;
-  height: auto;
+}
+
+.hero__myImg {
+  width: 100%;
 }
 
 .content {
