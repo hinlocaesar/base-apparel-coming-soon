@@ -2,9 +2,10 @@
 function myFunction(x) {
 
     if (x.matches) { // If media query matches
-      document.querySelector('.myImg').src = "/images/hero-mobile.jpg";
+      document.querySelector('.hero__myImg').src = "/images/hero-mobile.jpg";
     } else {
-       document.querySelector(".myImg").src = "/images/hero-desktop.jpg";
+
+      document.querySelector('.hero__myImg').src = "/images/hero-desktop.jpg";
     }
   }
   
@@ -15,20 +16,19 @@ function myFunction(x) {
 
 
 //Function To check validation of email address
-  function getInputValue(){
-    // Selecting the input element and get its value 
-    let inputVal = document.getElementById("myInput").value;
-    let element = document.querySelector(".content__form__group__icon");
-    if(!inputVal.includes('@')){
-      document.querySelector(".content__alert").innerHTML="Please provide valid email";
+function getInputValue(){
+      // Selecting the input element and get its value 
+      let inputVal = document.getElementById("myInput").value;
+      let element = document.querySelector(".content__form__group__icon");
+      if(!inputVal.includes('@')){
+        document.querySelector(".content__alert").innerHTML="Please provide valid email";
+        element.style.visibility = "visible";
 
-      element.style.visibility = "visible";
-
-    }else{
-      document.querySelector(".content__alert").innerHTML="Succesfully Registered";
-      document.querySelector(".content__alert").style.color = "green";
-    }
-    
+      }else{
+        document.querySelector(".content__alert").innerHTML="Succesfully Registered";
+        document.querySelector(".content__alert").style.color = "green";
+        element.style.visibility = "hidden";
+      }
 
 }
   

@@ -115,7 +115,7 @@ input:focus, textarea:focus {
   margin-bottom: 0.7rem;
   height: 3rem;
   border-radius: 1.9rem;
-  border: solid 5px #ce9797;
+  border: solid 1px #ce9797;
   /*group end*/
 }
 
