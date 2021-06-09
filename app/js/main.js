@@ -2,10 +2,10 @@
 function myFunction(x) {
 
     if (x.matches) { // If media query matches
-      document.querySelector('.hero__myImg').src = "/images/hero-mobile.jpg";
+      document.querySelector('.hero__myImg').src = "./images/hero-mobile.jpg";
     } else {
 
-      document.querySelector('.hero__myImg').src = "/images/hero-desktop.jpg";
+      document.querySelector('.hero__myImg').src = "./images/hero-desktop.jpg";
     }
   }
   
